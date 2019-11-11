@@ -2661,3 +2661,6 @@ span.item-fullname a {
 #myaccount .billing-info, #myaccount .shipping-info {
 	background: rgba(247, 247, 247, 0.05);
 }
+.special-action .btn-link {
+    color: #fff;
+}
