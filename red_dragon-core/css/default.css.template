@@ -9,7 +9,21 @@ font-family: 'Roboto Slab', serif;
 html, body {
   height: 100%;
 }
-
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 body {
   display: flex;
   height: 100%;
@@ -845,6 +859,7 @@ body.home-page .header-navigation {
     padding: 14px 5px;
     margin: 0 5px;
     position: relative;
+    line-height: normal;
 }
 .top_links span {
     /* color: #333; */
@@ -1292,18 +1307,14 @@ ul.extrapages li a i{
     height: 40px;
     font-weight: 400;
     border-color: #252525 !important;
-    background-color: #252525 !important;
-    font-size: 0px;
+    background-color: #252525 !important;    
     color: #000 !important;
     border-radius: 0;
 }
 .mailinglist-submit i{
     font-size: 18px;
 }
-@media (min-width: 768px) {
-    .mailinglist-submit {
-        font-size: 0px;
-    }
+@media (min-width: 768px) {    
     .mailinglist-submit i{
         display: block;
     }
@@ -1581,6 +1592,7 @@ span.freeshipping {
     border: none;*/
     text-align: center;
     padding: 8px 0;
+    color:#FF7070;
 }
 .product-item .reviews {
     display: block;
@@ -1719,11 +1731,11 @@ span.freeshipping {
     }
 }
 
-.products-section h2 {
+.products-section h2,.products-section h1 {
     display: block;
     background: none;
     text-align: center;
-    color: #585858;
+    color: #999;
     font-size: 30px;
     letter-spacing: 0px;
     line-height: 32px;
@@ -1737,7 +1749,7 @@ span.freeshipping {
     }
 @media(max-width: 991px) {
 
-    .products-section h2 {
+    .products-section h2,.products-section h1 {
         font-size: 36px;
     }
 }
@@ -1970,12 +1982,12 @@ span.freeshipping {
         left: 0;
         max-height: 98%;
     }
-    .products-section h2, .home-page-content .category-header h3 {
+    .products-section h2, .home-page-content .category-header h3,.products-section h1 {
 
         font-size: 24px;
         margin-bottom: 15px;
     }
-    .products-section h2 span, .home-page-content .category-header h3 span{
+    .products-section h2 span, .home-page-content .category-header h3 span,.products-section h1 span{
     }
     .searchBox {
         padding: 20px 0 0;
