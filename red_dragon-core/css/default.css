@@ -25,6 +25,9 @@ position:static;
 width:auto;
 height:auto;
 }
+.store_data * {
+    color: #fff;
+}
 body {
   display: flex;
   height: 100%;

@@ -18,6 +18,9 @@ width:1px;
 height:1px;
 overflow:hidden;
 }
+.store_data * {
+    color: #fff;
+}
 #skip a:focus
 {
 position:static;
