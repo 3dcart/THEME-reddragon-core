@@ -51,13 +51,6 @@ footer {
 .homepage-blog-posts .post-image-container img {
     height: 210px;
 }
-.blog .blogPost .post-content h2 {
-    margin: 0;
-    color: #fff;
-}
-.blog .blogPost .post-content h2 a {
-    color: inherit;
-}
 @media (max-width: 991px){
 .product-items.productList .product-item .img {
     padding-right: 0;
