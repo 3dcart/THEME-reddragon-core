@@ -51,6 +51,7 @@ footer {
 .homepage-blog-posts .post-image-container img {
     height: 210px;
 }
+.searchPages a, .searchCatFormat a{color:#fff}
 @media (max-width: 991px){
 .product-items.productList .product-item .img {
     padding-right: 0;
