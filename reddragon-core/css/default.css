@@ -71,6 +71,12 @@ body {
 	line-height: 1.5;
 	font-size: 15px;
 }
+.modal-content,
+.r-tabs .r-tabs-panel,
+.checkbox-format, .radio-format>.radio-option, .swatch-format>.swatch-option,
+.browsing_historyBlock, .browsing_historyBlock a{
+    color: #333 !important;
+}
 body:not('.checkout-1') {
 	padding-top: 258px;
 }
