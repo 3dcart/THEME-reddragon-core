@@ -1547,7 +1547,7 @@ span.freeshipping {
     position: relative;
     font-size: 16px;
     font-weight: 500;
-    color: #464646;
+    color: #fff;
     margin: 10px auto 2px;
 }
 .product-item .on-sale-badge {
